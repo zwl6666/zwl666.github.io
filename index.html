@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+    <TITLE>围住小猫</TITLE>
+    <META content="围住小猫" name="keywords">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <STYLE type="text/css">
+        BODY {
+            COLOR: #ffffff;
+            FONT-FAMILY: Comic Sans MS;
+            background-image: #FEFEFE;
+            background-repeat: repeat;
+            background-color: #C7EDCC;
+        }
+    </STYLE>
+    <META content="MSHTML 6.00.2900.3354" name="GENERATOR">
+</HEAD>
+<BODY>
+    <DIV align="center">
+        <font size="6" face="黑体">游戏《圈小猫》</font>
+        <P></P>
+        <SCRIPT TYPE="TEXT/JAVASCRIPT" SRC="../围小猫/PHASER.MIN.JS"></SCRIPT>
+		<SCRIPT TYPE="TEXT/JAVASCRIPT" SRC="../围小猫/CATCH-THE-CAT2.JS"></SCRIPT>
+        <div id="catch-the-cat"></div>
+        <script>
+            window.game = new CatchTheCatGame({
+                w: 12,
+                h: 12,
+                r: 30,
+                backgroundColor: 13612347,
+                parent: "catch-the-cat",
+                statusBarAlign: "center",
+                credit: "@周伟来"
+            })
+        </script>
+    </DIV>
+</BODY>
+</HTML>
